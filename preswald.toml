@@ -1,0 +1,20 @@
+[project]
+title = "Kunwoo Shin's Project"
+version = "0.1.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "hello.py"
+
+[branding]
+name = "Preswald Project"
+logo = "images/my-logo.png"
+favicon = "images/my-favicon.ico"
+primaryColor = "#F89613"
+
+[data.dataset]
+type = "csv"
+path = "data/dataset.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
